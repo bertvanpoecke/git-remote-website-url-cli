@@ -20,7 +20,9 @@ npm install -g git+https://github.com/bertvanpoecke/git-remote-website-url-cli.g
 
 ## Usage
 
-```
+```bash
 git-remote-website-url https://bertvanpoecke@github.com/bertvanpoecke/git-remote-website-url-cli.git
+# ==> "https://github.com/bertvanpoecke/git-remote-website-url-cli"
 git-remote-website-url git@github.com:bertvanpoecke/git-remote-website-url-cli.git
+# ==> "https://github.com/bertvanpoecke/git-remote-website-url-cli"
 ```
